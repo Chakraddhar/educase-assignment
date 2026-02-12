@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-card {
+  width: 375px;
+  height: 720px;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+p {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 20px;
+}
+
+label {
+  font-size: 13px;
+  color: #6c25ff;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 6px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+input::placeholder {
+  color: #9ca3af;
+}
+
+.error {
+  color: #d93025;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 12px;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 14px;
+  background: #6c25ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.secondary-btn {
+  width: 100%;
+  padding: 14px;
+  background: #ede7ff;
+  color: #6c25ff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.page-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.profile-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.profile-email {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.profile-desc {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #4b5563;
+  line-height: 1.4;
+}
+
+.divider {
+  margin-top: 24px;
+  border: none;
+  border-top: 1px dashed #d1d5db;
+}
